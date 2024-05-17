@@ -1,0 +1,134 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.kabul{
+ transition: 1s;
+  width: 100%;
+  background-color: rgb(170, 255, 170);
+  text-align: center;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.sing-in{
+  width:400px;
+  margin:auto;
+  padding:20px;
+  background-color: rgb(255, 213, 193);
+  border-radius: 10px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.btn{
+  width: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  
+}
+.kampanya{
+  background-image: url(backimage.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.marka-menu{
+  display: flex;
+  background-color: rgb(252, 216, 206);
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.marka-menu>li>a>img{
+  width: 200px;
+}
+.marka-menu-li:hover{
+  transform: scale(0.9);
+  transition: 0.5s;
+  background-color: rgb(252, 216, 206);
+  box-shadow: 0px 0px 30px rgb(255, 175, 153);;
+}
+
+.marka-menu-li{
+  text-align: center;
+  list-style: none;
+  width: 100%;
+}
+.aside{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.kampaside{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  margin: 0px;
+}
+.phone{
+  margin-bottom: 50px;
+  width: 322px;
+}
+.nesne{
+  padding: 20px;
+  border-radius: 20px;
+ 
+}
+.nesne:hover{
+  transition: 0.5s;
+   background-color: rgb(241, 241, 241);
+box-shadow: 0px 0px 25px rgb(161, 161, 161);
+}
+.nesne:active{
+  background-color: rgb(241, 241, 241);
+  transform: scale(0.99);
+
+}
+
+.kampnesne{
+  padding: 20px;
+  border-radius: 20px;
+  
+box-shadow: 0px 0px 25px rgb(255, 115, 0);
+}
+.kampnesne:hover{background-color: rgb(255, 60, 0);
+  transition: 0.5s;
+box-shadow: 0px 0px 25px rgb(255, 0, 0);
+}
+.kampnesne:active{
+  background-color: rgb(241, 241, 241);
+  transform: scale(0.99);
+
+}
+#heal{
+  text-decoration: none;
+  color: black;
+  float: right;
+  font-size: 25px;
+  margin-bottom: 1%;
+  margin-right: 2%;
+}
+#heal:hover{
+  color: orange;
+}
+#logo{
+ height: 12px;
+}
+footer{
+  background-color: white;
+}

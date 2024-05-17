@@ -1,0 +1,78 @@
+<form method= "GET" action= "/Home/VeriAlGet">
+<div class= "form-group">
+<label>sinav1</label>
+<input type= "text" name="sinav1" class="form-control" ></input>
+</div>
+<div class= "form-group">
+<label>sinav2</label>
+<input type= "text" name="sinav2" class="form-control" ></input>
+</div>
+<div class= "form-group">
+<label>Okul No</label>
+<input type= "text" name="okulno" class="form-control" ></input>
+</div>
+<div class= "form-group">
+<label>Ad</label>
+<input type= "text" name="ad" class="form-control" ></input>
+</div>
+<div class= "form-group">
+<label>Soyad</label>
+<input type= "text" name="soyad" class="form-control" ></input>
+</div>
+<div class= "form-group">
+<label>Sınıf</label>
+<input type= "text" name="sinif" class="form-control"></input>
+</div>
+<div class= "form-group">
+<button type= "submit" class= "btn btn-primary" >Gönder</button>
+</div>
+</form>
+
+<form >
+  <div class= "form-group">
+<label>sinav1</label>
+<input type= "text" name="s1" class="form-control" ></input>
+</div>
+<div class= "form-group">
+<label>sinav2</label>
+<input type= "text" name="s2" class="form-control" ></input>
+</div>
+<div class= "form-group">
+<label>AdSoyad</label>
+<input type= "text" name="adsoyad" class="form-control" ></input>
+</div>
+<div class= "form-group">
+<button type= "submit" class= "btn btn-primary" >Gönder</button>
+</div>
+</form>
+<form method="post" asp-action="VeriAlPost">
+  <div class="mt-3">
+    <div class="mb-3">
+      <label for="Kac" class="from-label">kaca kadar</label>
+      <input type="text" name="Kac" id="Kac" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">gönder</button>
+  </div>
+</form>
+<form method="post" asp-action="VeriAlPostt">
+  <div class="mt-3">
+    <div class="mb-3">
+      <label for="Kac" class="from-label">kaça kadar</label>
+      <input type="text" name="Kac" id="Kac" class="form-control">
+      <label for="Kacar" class="from-label">kaçar kaçar</label>
+      <input type="text" name="Kacar" id="Kacar" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">gönder</button>
+  </div>
+</form>
+<form method="post" asp-action="VeriAlPostTablo">
+  <div class="mt-3">
+    <div class="mb-3">
+      <label for="Satir" class="from-label">kaç satır</label>
+      <input type="text" name="Satir" id="Satir" class="form-control">
+      <label for="Sutun" class="from-label">kaç sütun</label>
+      <input type="text" name="Sutun" id="Sutun" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">gönder</button>
+  </div>
+</form>

@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "VeriAlPostt";
+}
+@{
+    int a=ViewBag.kac;
+    int b=ViewBag.kacar;
+}
+
+@for (int i = 0; i < @a; i+=@b){<p class="bg-info">@i</p>}

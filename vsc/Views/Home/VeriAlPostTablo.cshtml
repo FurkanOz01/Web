@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "VeriAlPostTablo";
+}
+@{
+    int satr=ViewBag.satir;
+    int stun=ViewBag.sutun;
+}
+<div class="container">
+   @for (int i = 0; i < @satr; i++)
+    {
+        <div class="row bg-warning">
+            @for (int x = 0; x < @stun; x++)
+            {
+            <div class="col bg-info m-1">@x</div>
+            }
+        </div> 
+    } 
+</div>

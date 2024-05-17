@@ -1,0 +1,45 @@
+﻿
+
+<div class="bg-dark text-light p-3 my-3 ">
+    @for (int i = 1; i < 10; i++)
+    {
+    <img style="display: block;" src="~/@(i).png">
+    }
+    @for (int i = 1; i <= 5; i++)
+    {
+    <h@(i)>dfadsfdsg</h>
+    }
+    @for (int i = 1; i <= 10; i++)
+    {
+       @* @ <p class="@((i%2==1) ? "bg-warning" : "bg-danger")">@i</p> //ifle aynı görevde*@
+        @if (i%2==0)
+        {
+            <p class="bg-danger">@i</p>
+        }
+        else{
+            <p class="bg-warning">@i</p>
+        }
+    }
+</div>
+<form method="post" asp-action="Yukle" enctype="multipart/form-data">
+<div>
+    <label for="adsoyad" class="from-label">ad soyad</label>
+      <input type="text" name="adsoyad" id="adsoyad" class="form-control">
+</div>
+ <div>
+      <label for="sinav1" class="from-label">telefon</label>
+      <input type="text" name="Telefon" id="Telefon" class="form-control">
+ </div>
+     
+<div class="mb-3">
+    <label for="resim" class="form-label">Resim</label>
+    <input type="file" name="resim" id="resim" class="form-control">
+</div>
+<button type="submit" class="btn btn-primary">Gönder</button>
+</form>
+
+
+
+ 
+
+

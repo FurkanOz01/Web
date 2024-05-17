@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Yukle";
+}
+@model Ogrenci
+<div class="card-3 p-3">
+    <h1>öğrenci adı: @Model.AdSoyad</h1>
+    <p>telefonu: @Model.Telefon</p>
+    <p><img src="~/@Model.Resim.FileName" alt=""></p>
+</div>
